@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Vladymyr, cv, resume">
+	<meta name="descriptions" content="Это сайт - резюме Скрыля Владимира">
+	<link rel="stylesheet" href="style.css">
+	<title>Vladymyr Resume</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="info">
+			<img src="01.png" alt="Скрыль Владимимир" class="avatar">
+			<div class="info-text">
+				<h1>Скрыль Владимир</h1>
+				<p>
+					Я начинающий программист, изучаю разные языки программирования.
+				</p>
+				<p>
+					<em>Люблю велоспорт, нумизманитку, саморазвитие.</em>
+				</p>
+
+				<h4>Список социальных сетей</h4>
+				<a href="https://www.facebook.com/vovksskril/" target="_blank">Facebook</a>
+			</div>
+		</div>
+		<div class="card bg-green">
+			<h2>Мои хобби</h2>
+			<ol class="List">
+				<li>Путешествия</li>
+				<li>Велоспорт</li>
+				<li>Нумизматика</li>
+			</ol>
+		</div>
+		<div class="card bg-red">
+			<h2>Опыт работы</h2>
+
+			<table class="table">
+				<!--<thead>
+					<tr>
+						<th>Название</th>
+						<th>Должность</th>
+						<th>Год</th>
+					</tr>
+				</thead>-->
+				<tbody>
+					<tr>
+						<td>SunTehPolska</td>
+						<td>Instalator</td>
+						<td>2019-2021</td>
+					</tr>
+					<tr>
+						<td>Proeko</td>
+						<td>Instalator</td>
+						<td>2021-сегодня</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="card bg-yellow">
+			<h2>Мои курсы</h2>
+			<ul class="Link-List">
+				<li>
+					<a href="https://plusedukacja.pl/technik-programista.html">Получение профессии техник программист</a>
+				</li>
+				<P>Обучение у практикующего прогрммиста с 8-ми летним опытом работы в банковской сфере Канады </P>
+			</ul>
+		</div>
+
+		<form action="/" class="form">
+			<h2>Связаться со мной</h2>
+			<div class="form-rov">
+				<div class="form-group">
+					<label for="name">Ваше имя:</label>
+					<input type="text" id="name" placeholder="Введите имя">
+
+				</div>
+				<div class="form-group">
+					<label for="email">Ваш email:</label>
+					<input type="imeil" id="email" placeholder="Введите email">
+				</div>
+
+			</div>
+			<div class="form-group">
+				<label for="massege">Ваше сообщение:</label>
+				<textarea id="massege" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+			</div>
+			<input class="btn" type="submit" value="Отправить">
+	</div>
+	</form>
+</body>
+
+</html>
